@@ -3,7 +3,7 @@
   src: url('../fonts/Vazirmatn-Regular.ttf') format('truetype');
 }
 
-body {
+* {
   font-family: 'Vazir';
   color: #fff;
   position: relative;
