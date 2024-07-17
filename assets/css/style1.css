@@ -718,8 +718,6 @@ section .container {
   font-size: 14px;
   margin: 0 68px;
   text-align: end;
-  display: flex; /* TODO: fix */
-  flex-direction: row-reverse;
 }
 
 .contact .info-box .social-links {
