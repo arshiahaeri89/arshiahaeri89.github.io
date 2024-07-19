@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Vazir';
-  src: url('../fonts/Vazirmatn-Regular.ttf') format('truetype');
+  font-family: "Vazir";
+  src: url("../fonts/Vazirmatn-Regular.ttf") format("truetype");
 }
 
 * {
-  font-family: 'Vazir' !important;
+  font-family: "Vazir" !important;
 }
 
 body {
@@ -187,7 +187,7 @@ svg {
   flex-direction: row-reverse;
 }
 
-.nav-menu li+li {
+.nav-menu li + li {
   margin-right: 30px;
 }
 
@@ -214,15 +214,15 @@ svg {
 }
 
 .nav-menu a:hover:before,
-.nav-menu li:hover>a:before,
-.nav-menu .active>a:before {
+.nav-menu li:hover > a:before,
+.nav-menu .active > a:before {
   visibility: visible;
   width: 25px;
 }
 
 .nav-menu a:hover,
-.nav-menu .active>a,
-.nav-menu li:hover>a {
+.nav-menu .active > a,
+.nav-menu li:hover > a {
   color: #12d640;
   text-decoration: none;
 }
@@ -248,6 +248,7 @@ svg {
 }
 
 .mobile-nav {
+  text-align: right;
   position: fixed;
   top: 55px;
   right: 15px;
@@ -280,8 +281,8 @@ svg {
 }
 
 .mobile-nav a:hover,
-.mobile-nav .active>a,
-.mobile-nav li:hover>a {
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
   color: #12d640;
   text-decoration: none;
 }
@@ -523,7 +524,7 @@ section .container {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: .9s;
+  transition: 0.9s;
   background-color: #1c7d32;
 }
 
@@ -605,7 +606,7 @@ section .container {
   height: 64px;
   background: #1c7d32;
   border-radius: 5px;
-  transition: all .3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -620,14 +621,14 @@ section .container {
 
 .services .icon-box .icon::before {
   position: absolute;
-  content: '';
+  content: "";
   left: -8px;
   top: -8px;
   height: 100%;
   width: 100%;
   background: rgba(255, 255, 255, 0.15);
   border-radius: 5px;
-  transition: all .3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
 }
 
@@ -700,7 +701,7 @@ section .container {
 }
 
 .contact .info-box i.icofont-rounded-left {
-  color: #12D640;
+  color: #12d640;
 }
 
 .contact .info-box img {
