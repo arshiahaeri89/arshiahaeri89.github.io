@@ -100,10 +100,18 @@ svg {
   line-height: 1;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-#header h1 a,
-#header h1 a:hover {
+#header h1 .language {
+  font-size: 50%;
+  align-content: end;
+  margin: 0px 20px;
+}
+
+#header h1 a:not(.language),
+#header h1 a:not(.language):hover {
   color: #dee2e6;
   line-height: 1;
   display: inline-block;
